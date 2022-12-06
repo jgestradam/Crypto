@@ -23,6 +23,7 @@
 		5D2CF603293F819D00158FAE /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF5FD293F819D00158FAE /* UIApplication.swift */; };
 		5D2CF604293F819E00158FAE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF5FE293F819D00158FAE /* Color.swift */; };
 		5D2CF606293F873800158FAE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF605293F873800158FAE /* HomeViewModel.swift */; };
+		5D2CF609293F993F00158FAE /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF608293F993F00158FAE /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		5D2CF5FD293F819D00158FAE /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		5D2CF5FE293F819D00158FAE /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5D2CF605293F873800158FAE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5D2CF608293F993F00158FAE /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		5D2CF5C4293EB55000158FAE /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				5D2CF607293F991300158FAE /* Services */,
 				5D2CF5EF293ECBB700158FAE /* Models */,
 				5D2CF5E3293EBBFA00158FAE /* Core */,
 				5D2CF5C5293EB55000158FAE /* CryptoApp.swift */,
@@ -167,6 +170,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		5D2CF607293F991300158FAE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CF608293F993F00158FAE /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,6 +251,7 @@
 				5D2CF603293F819D00158FAE /* UIApplication.swift in Sources */,
 				5D2CF5E8293EBC3E00158FAE /* HomeView.swift in Sources */,
 				5D2CF5F3293ED83800158FAE /* CoinRowView.swift in Sources */,
+				5D2CF609293F993F00158FAE /* CoinDataService.swift in Sources */,
 				5D2CF601293F819D00158FAE /* String.swift in Sources */,
 				5D2CF604293F819E00158FAE /* Color.swift in Sources */,
 				5D2CF5EE293EC4E000158FAE /* CircleButtonAnimationView.swift in Sources */,

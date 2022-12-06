@@ -24,17 +24,22 @@ struct HomeView: View {
                 
                 columnTitles
                 
-                if !showPortfolio {
-                    allCoinsList
-                    .transition(.move(edge: .leading))
+                if (vm.allCoins.count != 0) {
+                    
+                    if !showPortfolio {
+                        allCoinsList
+                            .transition(.move(edge: .leading))
+                    }
+                    
+                    if showPortfolio {
+                        portfolioCoinsList
+                            .transition(.move(edge: .trailing))
+                    }
+                } else {
+                    ProgressView()
                 }
-                
-                if showPortfolio {
-                    portfolioCoinsList
-                        .transition(.move(edge: .trailing))
-                }
-                
                 Spacer(minLength: 0)
+                
             }
         }
     }

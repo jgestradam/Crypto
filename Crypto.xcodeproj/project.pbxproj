@@ -29,6 +29,7 @@
 		5D2CF613293FEB0B00158FAE /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF612293FEB0B00158FAE /* CoinImageService.swift */; };
 		5D2CF615293FEEA000158FAE /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF614293FEEA000158FAE /* CoinImageViewModel.swift */; };
 		5D2CF6172940039B00158FAE /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF6162940039B00158FAE /* LocalFileManager.swift */; };
+		5D2CF6192940127E00158FAE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF6182940127E00158FAE /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		5D2CF612293FEB0B00158FAE /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		5D2CF614293FEEA000158FAE /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		5D2CF6162940039B00158FAE /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		5D2CF6182940127E00158FAE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				5D2CF60F293FE70900158FAE /* CoinImage */,
 				5D2CF5EA293EBE7600158FAE /* CircleButton */,
+				5D2CF6182940127E00158FAE /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				5D2CF6172940039B00158FAE /* LocalFileManager.swift in Sources */,
 				5D2CF5EE293EC4E000158FAE /* CircleButtonAnimationView.swift in Sources */,
 				5D2CF5FF293F819D00158FAE /* Date.swift in Sources */,
+				5D2CF6192940127E00158FAE /* SearchBarView.swift in Sources */,
 				5D2CF5C8293EB55000158FAE /* ContentView.swift in Sources */,
 				5D2CF5F1293ECBCB00158FAE /* CoinModel.swift in Sources */,
 				5D2CF606293F873800158FAE /* HomeViewModel.swift in Sources */,

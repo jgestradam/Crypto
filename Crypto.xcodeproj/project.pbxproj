@@ -28,6 +28,7 @@
 		5D2CF611293FE71C00158FAE /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF610293FE71C00158FAE /* CoinImageView.swift */; };
 		5D2CF613293FEB0B00158FAE /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF612293FEB0B00158FAE /* CoinImageService.swift */; };
 		5D2CF615293FEEA000158FAE /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF614293FEEA000158FAE /* CoinImageViewModel.swift */; };
+		5D2CF6172940039B00158FAE /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CF6162940039B00158FAE /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		5D2CF610293FE71C00158FAE /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		5D2CF612293FEB0B00158FAE /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		5D2CF614293FEEA000158FAE /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		5D2CF6162940039B00158FAE /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				5D2CF60D293FD60D00158FAE /* NetworkingManager.swift */,
+				5D2CF6162940039B00158FAE /* LocalFileManager.swift */,
 			);
 			path = Utiliries;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				5D2CF601293F819D00158FAE /* String.swift in Sources */,
 				5D2CF60E293FD60D00158FAE /* NetworkingManager.swift in Sources */,
 				5D2CF604293F819E00158FAE /* Color.swift in Sources */,
+				5D2CF6172940039B00158FAE /* LocalFileManager.swift in Sources */,
 				5D2CF5EE293EC4E000158FAE /* CircleButtonAnimationView.swift in Sources */,
 				5D2CF5FF293F819D00158FAE /* Date.swift in Sources */,
 				5D2CF5C8293EB55000158FAE /* ContentView.swift in Sources */,
